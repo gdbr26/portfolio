@@ -1,0 +1,14 @@
+.homeWrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    .cover{
+        background-image: url(../../assets/cover.png);
+        height: 20vh;
+    }
+    .dpHolder{
+        width: 200px;
+        float: right;
+        margin-top: -50px;
+        margin-right: 25px;
+    }
+}
