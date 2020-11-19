@@ -1,0 +1,32 @@
+.contactWrap, .socialsWrap {
+    height: 100vh;
+    font-size: 36px;
+    .socialNwTitle{
+        margin: 3vh auto;
+        text-align: center;
+    }
+}
+
+.contactWrap {
+    background-image: url(../../assets/images/contactme.jpg);
+    background-size: 100 100;
+    img{
+        width: 80%;
+    }
+    .smallFont {
+        font-size: large;
+    }
+    input, textarea {
+        width: 100%;
+        font-size: x-large;
+    }
+}
+
+.socialsWrap {
+    background-image: url(../../assets/images/code.PNG);
+    color: #FAFAFA;
+    text-align: center;
+    img{
+        width: 80%;
+    }
+}
