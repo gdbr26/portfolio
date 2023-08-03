@@ -1,0 +1,6 @@
+<div class="container" style="display: flex; width: 100vw; flex-grow: 10; overflow-x: auto;">
+    <mat-card class="projectCard" *ngFor="let project of projectsList">
+        <mat-card-title>{{project.projectName}}</mat-card-title>
+        <mat-card-content>{{project.projectDesc}}</mat-card-content>
+    </mat-card>
+</div>
