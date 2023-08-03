@@ -1,4 +1,18 @@
+.projContainer {
+    display: flex; 
+    width: 100vw; 
+    height: 400px; 
+    overflow-x: auto; 
+    flex-wrap: wrap; 
+    flex-direction: column;
+}
 .projectCard {
-    min-width: 400px;
-    height: 300px;
+    width: 250px;
+    height: 150px;
+    margin: 15px 8px;
+    box-shadow: 5px 5px 15px lightslategray;
+    overflow: auto;
+}
+.projectCard:nth-child(even) {
+    margin-left: 30px;
 }

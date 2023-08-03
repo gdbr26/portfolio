@@ -1,6 +1,5 @@
-<div class="container" style="display: flex; width: 100vw; flex-grow: 10; overflow-x: auto;">
-    <mat-card class="projectCard" *ngFor="let project of projectsList">
-        <mat-card-title>{{project.projectName}}</mat-card-title>
-        <mat-card-content>{{project.projectDesc}}</mat-card-content>
+<div class="container projContainer">
+    <mat-card class="projectCard alignCenter" style="display: flex; align-items: center; text-align: center;" *ngFor="let project of projectsList">
+        <mat-card-content>{{project.projectName}}</mat-card-content>
     </mat-card>
 </div>
