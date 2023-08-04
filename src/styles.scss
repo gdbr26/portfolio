@@ -8,3 +8,16 @@
 }
 html, body { height: 100%; background-color: #ececec; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    overflow-y: scroll;
+    background: lightgrey;
+    box-shadow: inset 0 0 4px lightgrey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: aliceblue;
+    border-radius: 10px;
+}
