@@ -1,5 +1,7 @@
 <div class="container projContainer">
-    <mat-card class="projectCard alignCenter" style="display: flex; align-items: center; text-align: center;" *ngFor="let project of projectsList">
+    <mat-card class="projectCard alignCenter" 
+    style="display: flex; align-items: center; text-align: center;" 
+    *ngFor="let project of projectsList" [style.background]="project.color">
         <mat-card-content>{{project.projectName}}</mat-card-content>
     </mat-card>
 </div>
